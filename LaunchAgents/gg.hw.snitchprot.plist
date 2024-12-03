@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>gg.hw.snitchprot</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/hubertusweber/.local/bin/snitchprot</string>
+    </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>LOG_HOME</key>
+        <string>Users/hubertusweber/.local/log</string>
+    </dict>
+    <key>StartInterval</key>
+    <integer>3</integer>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>

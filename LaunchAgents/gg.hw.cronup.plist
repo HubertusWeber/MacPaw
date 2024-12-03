@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>gg.hw.cronup</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/hubertusweber/.local/bin/cronup</string>
+    </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>LOG_HOME</key>
+        <string>Users/hubertusweber/.local/log</string>
+        <key>HOMEBREW_NO_COLOR</key>
+        <string>1</string>
+        <key>HOMEBREW_NO_EMOJI</key>
+        <string>1</string>
+        <key>RUSTUP_HOME</key>
+        <string>/Users/hubertusweber/.dev/rustup</string>
+        <key>RUSTUP_TERM_COLOR</key>
+        <string>never</string>
+        <key>CARGO_HOME</key>
+        <string>/Users/hubertusweber/.dev/cargo</string>
+        <key>CARGO_TERM_COLOR</key>
+        <string>never</string>
+        <key>CARGO_TERM_PROGRESS_WHEN</key>
+        <string>never</string>
+    </dict>
+    <key>StartInterval</key>
+    <integer>3600</integer>
+    <key>StartOnMount</key>
+    <true/>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
