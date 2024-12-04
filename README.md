@@ -7,11 +7,13 @@ A collection of my personal macOS enhancement scripts and configurations! Feel f
 ### 🔧 Helpers/
 Rust-powered utility programs:
 - **cronup**: Automates updates for Homebrew, Rust, Cargo crates, and Neovim plugins 🎩
+- **cleanlog**: Manages log file retention by removing entries older than specified retention periods 🫧
 - **snitchprot**: Manages Little Snitch profiles based on ProtonVPN connection status 🛡️
 
 ### 🚀 LaunchAgents/
 The plists that keep everything running:
 - **gg.hw.cronup.plist**: Schedules cronup
+- **gg.hw.cleanlog.plist**: Schedules cleanlog
 - **gg.hw.snitchprot.plist**: Keeps snitchprot on guard
 - **gg.hw.unison.plist**: Handles Obsidian notes synchronization 📚
 
