@@ -19,8 +19,15 @@ The plists that keep everything running:
 
 ### 🛠️ Scripts/
 - **disable.sh**: Tweaks macOS for enhanced privacy, better performance, and a minimalist experience
+- **hide_dock.sh**: Aggressively disables the macOS Dock for a cleaner workspace
+- **show_dock.sh**: Restores the Dock to its default state
+
+### ⚙️ Config/
+Configuration files that are too small for their own repository:
+- **aerospace.toml**: Configuration for the Aerospace window manager
 
 ## 📖 Documentation
+
 Each file contains detailed inline documentation explaining what it does and how it works.
 
 ## 📝 License
