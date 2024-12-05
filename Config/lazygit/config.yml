@@ -1,0 +1,10 @@
+gui:
+  authorColors:
+    '*': '#B48EAD'  # nord15
+
+keybinding:
+  universal:
+    prevItem: 'e'  # up
+    nextItem: 'n'  # down
+    prevPage: 'm'  # left
+    nextPage: 'i'  # right
