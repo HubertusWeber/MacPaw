@@ -25,6 +25,7 @@ The plists that keep everything running:
 ### ⚙️ Config/
 Configuration files that are too small for their own repository:
 - **aerospace.toml**: Configuration for the Aerospace window manager
+- **starship.toml**: Configuration for the Starship cross-shell prompt
 
 ## 📖 Documentation
 
