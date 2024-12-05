@@ -72,9 +72,8 @@ defaults write com.apple.Siri StatusMenuVisible -bool false
 defaults write com.apple.Siri UserHasDeclinedEnable -bool true
 defaults write com.apple.systemuiserver "NSStatusItem Visible Siri" -bool false
 
-# Disable Spotlight suggestions and indexing
+# Disable Spotlight suggestions
 defaults write com.apple.safari UniversalSearchEnabled -bool false
-sudo mdutil -a -i off
 
 # -----------------------------------------------------------------------------
 # User Interface Settings
