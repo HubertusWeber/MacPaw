@@ -2,9 +2,9 @@
 
 # =============================================================================
 # macOS Privacy and Performance Configuration Script
-# 
-# Purpose: Configures various macOS settings to enhance privacy, improve 
-# performance, and create a minimalist experience by disabling unnecessary 
+#
+# Purpose: Configures various macOS settings to enhance privacy, improve
+# performance, and create a minimalist experience by disabling unnecessary
 # features and services.
 # =============================================================================
 
@@ -28,6 +28,10 @@ defaults write com.apple.finder FinderSounds -bool false
 
 # Mute system audio
 osascript -e "set volume output muted true"
+
+# Disable sound when charging cable is plugged in
+defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
+killall PowerChime
 
 # -----------------------------------------------------------------------------
 # Privacy and Security Settings
