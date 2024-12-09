@@ -1,4 +1,5 @@
 gui:
+  border: "sharp"
   authorColors:
     '*': '#B48EAD'  # nord15
 
