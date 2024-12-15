@@ -8,6 +8,9 @@
 # features and services.
 # =============================================================================
 
+# Disable sudden motion sensor since using SSD
+sudo pmset -a sms 0
+
 # -----------------------------------------------------------------------------
 # Audio Settings
 # Disables various system sounds and audio feedback for a quieter experience
@@ -101,6 +104,12 @@ defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 
 # Disable Safari search suggestions
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+# Disable dashboard
+defaults write com.apple.dashboard mcx-disabled -boolean true
+
+# Disable mission control
+defaults write com.apple.dock mcx-expose-disabled -bool true
 
 # -----------------------------------------------------------------------------
 # Restart Services
