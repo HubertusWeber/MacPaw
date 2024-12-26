@@ -11,7 +11,6 @@ $git_status\
 $hg_branch\
 $pijul_channel\
 $docker_context\
-$package\
 $buf\
 $direnv\
 $env_var\
