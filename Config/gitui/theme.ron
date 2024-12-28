@@ -1,0 +1,23 @@
+(
+    selected_tab: Some("Reset"),
+    command_fg: Some("#fbf1c7"),        // light0 - for good contrast
+    selection_bg: Some("#504945"),      // dark2 - for selection highlighting
+    selection_fg: Some("#ebdbb2"),      // light1 - for selected text
+    cmdbar_bg: Some("#282828"),         // dark0 - for command bar background
+    cmdbar_extra_lines_bg: Some("#282828"), // dark0 - matching cmdbar_bg
+    disabled_fg: Some("#928374"),       // gray - for disabled items
+    diff_line_add: Some("#b8bb26"),     // bright_green - for additions
+    diff_line_delete: Some("#fb4934"),  // bright_red - for deletions
+    diff_file_added: Some("#b8bb26"),   // bright_green - for added files
+    diff_file_removed: Some("#fb4934"), // bright_red - for removed files
+    diff_file_moved: Some("#d3869b"),   // bright_purple - for moved files
+    diff_file_modified: Some("#fe8019"), // bright_orange - for modified files
+    commit_hash: Some("#83a598"),       // bright_blue - for commit hashes
+    commit_time: Some("#458588"),       // neutral_blue - for commit times
+    commit_author: Some("#689d6a"),     // neutral_aqua - for commit authors
+    danger_fg: Some("#fb4934"),         // bright_red - for dangerous actions
+    push_gauge_bg: Some("#458588"),     // neutral_blue - for push gauge background
+    push_gauge_fg: Some("#fbf1c7"),     // light0 - for push gauge text
+    tag_fg: Some("#fabd2f"),           // bright_yellow - for tags
+    branch_fg: Some("#b8bb26")         // bright_green - for branches
+)

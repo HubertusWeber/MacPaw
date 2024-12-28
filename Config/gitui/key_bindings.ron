@@ -1,0 +1,12 @@
+(
+    move_left: Some(( code: Char('m'), modifiers: "")),
+    move_right: Some(( code: Char('i'), modifiers: "")),
+    move_up: Some(( code: Char('e'), modifiers: "")),
+    move_down: Some(( code: Char('n'), modifiers: "")),
+
+    merge_branch: Some(( code: Char('x'), modifiers: "")),           // was 'm'
+    status_ignore_file: Some(( code: Char('v'), modifiers: "")),     // was 'i'
+    stashing_toggle_index: Some(( code: Char('k'), modifiers: "")),  // was 'i'
+    edit_file: Some(( code: Char('l'), modifiers: "")),             // was 'e'
+    diff_hunk_next: Some(( code: Char('z'), modifiers: "")),        // was 'n'
+)
