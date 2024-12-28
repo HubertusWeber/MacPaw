@@ -16,7 +16,7 @@
     commit_time: Some("#458588"),       // neutral_blue - for commit times
     commit_author: Some("#689d6a"),     // neutral_aqua - for commit authors
     danger_fg: Some("#fb4934"),         // bright_red - for dangerous actions
-    push_gauge_bg: Some("#458588"),     // neutral_blue - for push gauge background
+    push_gauge_bg: Some("#d65d0e"),     // neutral_orange - for push gauge background
     push_gauge_fg: Some("#fbf1c7"),     // light0 - for push gauge text
     tag_fg: Some("#fabd2f"),           // bright_yellow - for tags
     branch_fg: Some("#b8bb26")         // bright_green - for branches
