@@ -1,7 +1,7 @@
 gui:
   border: "sharp"
   authorColors:
-    '*': '#B48EAD'  # nord15
+    '*': '#FE8017'
 
 keybinding:
   universal:
